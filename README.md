@@ -4,19 +4,19 @@ This script contains the most commonly used bash commands, and shourtcuts
 
 
 
-# copy  =============================>
+# copy  
 
 cp
 cp -r  Copy directory
 
 
-# move and rename ========================>
+# move and rename 
 
 mv
 mv -r  Move and rename directory
 
 
-# remove ============================>
+# remove 
 
 rm
 rm -r  Remove directory
@@ -24,14 +24,15 @@ rmdir  Remove directory
 
 
 
-# search tools =========================>
+# search tools 
 
-ctrl+r # Show last use of a command
+ctrl+r : Show last use of a command
 
-* # Useing for any unit of each character exsist
-? # Useing for one unit of each character exsist
+* : Useing for any unit of each character exsist
+? : Useing for one unit of each character exsist
 
-#example:
+example:
+
 ls h*
 ls f*e
 
@@ -41,9 +42,10 @@ which python3 # Show path of package
 
 
 
-# variable ==========================>
+# variable 
 
------------------- local variable ------------
+local variable
+--------------
 hesam=5
 echo $hesam
 
@@ -51,7 +53,8 @@ or
 alias ls='ls -l'
 
 
------------------- golbal variable ------------
+golbal variable
+---------------
 cd home/lobster/bin
 touch hesam
 nano hesam # write any command in hesam file like,
@@ -63,19 +66,17 @@ add alias ls='ls -l' command in .bashrc file
 
 
 
-# history ===========================>
+# history 
 
 history
 
-#shows 4 last history:
-history | tail -4
+history | tail -4 : shows 4 last history
 
-#show use of any cammand like "alias" in history
-history | grep alias
+history | grep alias : show use of any cammand like "alias" in history
 
 
 
- # bash script ===========================>
+ # bash script
 
 touch newcommand
 nano newcommand # write any command in newcommand file like,
@@ -88,7 +89,7 @@ example of python code in bash:
 for i in 1 2 3;do python -c "x=$i;y=2;print(x+y)"; done
 
 
-# svae output ===========================>
+# svae output 
 
 svae output of command to file:
 ------------------------------
@@ -96,7 +97,7 @@ svae output of command to file:
 >>  #overwrites the file if it exists or creates it if it doesn't exist
 
 
-# show data in bash =======================>
+# show data in bash 
 
 cat
 cat file1 | grep "hesam" 
@@ -110,14 +111,14 @@ tail -4 :  #similar to cat but show 4 last line of datas
 
 
 
-# make empty directory and file ===================>
+# make empty directory and file 
 
 mkdir   Directory
 touch   File
 
 
 
-# hot keys ===========================>
+# hot keys 
 
 ctrl+d Exit from 1 bash
 ctrl+l Clean page
@@ -125,14 +126,14 @@ ctrl+r Show last use of a command
 
 
 
-# root accsses ===========================>
+# root accsses 
 
 su
 sudo 
 
 
 
-# other ===========================>
+# other 
 
 reboot
 sleep 10s
