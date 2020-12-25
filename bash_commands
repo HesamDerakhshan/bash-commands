@@ -1,0 +1,125 @@
+bash command
+<==============================================>
+#hot keys:
+#---------
+ctrl+d exit from 1 bash
+ctrl+l clean page
+ctrl+r show last use of a command
+<==============================================>
+#copy:
+#----
+cp
+cp -r  copy directory
+#example
+$ mkdir pics
+$ ls 
+    documents    downloads    grades.txt    pics
+$ cp -r pics documents
+$ cd documents
+$ ls
+    grades.txt    pics
+<==============================================>
+#remove: 
+#------
+rm
+rm -r
+rmdir
+<==============================================>
+su
+sudo 
+reboot
+<==============================================>
+#show path of package:
+#--------------------
+which python3
+
+<==============================================>
+#local variable:
+#---------------
+hesam=5
+echo $hesam
+
+or
+alias ls='ls -l'
+
+#golbal variable:
+#---------------
+cd home/lobster/bin
+touch hesam
+nano hesam # write any command in hesam file like,
+echo "bura haradi? $PWD"
+chmod +x hesam #make scripts executable (execution permissions) 
+
+or:
+add alias ls='ls -l' command in .bashrc file
+<==============================================>
+
+
+cat
+cat file1 | grep "hesam" 
+cat file1 | grep "hesam" -n
+
+less: #similar to cat but show one page of datas
+
+head: #similar to cat but show one page of head of datas
+
+tail -4 :  #similar to cat but show 4 last line of datas
+
+#show history:
+#------------
+history
+
+#shows 4 last history:
+history | tail -4
+
+#show use of any cammand like "alias" in history
+history | grep alias
+
+
+#move and rename:
+#----------------
+mv
+
+
+
+sleep 10s
+echo
+pwd
+ls
+cd
+cd .
+cd ..
+mkdir
+touch
+chmod
+wildcards
+
+
+#search tools
+#---------
+* # useing for any unit of each character exsist
+? # useing for one unit of each character exsist
+#example:
+ls h*
+ls f*e
+
+#svae output of command to file
+#------------------------------
+>   #appends output to a file or creates the file if it doesn't exist
+>>  #overwrites the file if it exists or creates it if it doesn't exist
+
+find . -(i)name ""  -type d -size +100M 
+
+
+#bash script
+#-----------
+touch newcommand
+nano newcommand # write any command in newcommand file like,
+chmod +x newcommand #make scripts executable (execution permissions) 
+./newcommand 
+
+
+#example of python code in bash:
+#-------------------------------
+for i in 1 2 3;do python -c "x=$i;y=2;print(x+y)"; done
+
