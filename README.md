@@ -5,8 +5,8 @@ This script contains the most commonly used bash commands, and shourtcuts
 
 local variable
 --------------
-hesam=5
-echo $hesam
+my_var = 5
+echo $my_var
 
 or
 alias ls='ls -l'
@@ -41,7 +41,9 @@ mv -r  Move and rename directory
 # remove 
 
 rm
+
 rm -r  Remove directory
+
 rmdir  Remove directory
 
 
