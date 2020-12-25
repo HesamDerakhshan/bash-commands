@@ -6,6 +6,7 @@ This script contains the most commonly used bash commands, and shourtcuts
 local variable
 --------------
 my_var = 5
+
 echo $my_var
 
 or
