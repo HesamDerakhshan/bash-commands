@@ -1,47 +1,6 @@
 # bash-commands
 This script contains the most commonly used bash commands, and shourtcuts
 
-
-
-
-# copy  
-
-cp
-cp -r  Copy directory
-
-
-# move and rename 
-
-mv
-mv -r  Move and rename directory
-
-
-# remove 
-
-rm
-rm -r  Remove directory
-rmdir  Remove directory
-
-
-
-# search tools 
-
-ctrl+r : Show last use of a command
-
-* : Useing for any unit of each character exsist
-? : Useing for one unit of each character exsist
-
-example:
-
-ls h*
-ls f*e
-
-find . -(i)name ""  -type d -size +100M 
-
-which python3 # Show path of package
-
-
-
 # variable 
 
 local variable
@@ -63,6 +22,47 @@ chmod +x hesam #make scripts executable (execution permissions)
 
 or:
 add alias ls='ls -l' command in .bashrc file
+
+
+# copy  
+
+cp
+
+cp -r  Copy directory
+
+
+# move and rename 
+
+mv
+
+mv -r  Move and rename directory
+
+
+# remove 
+
+rm
+rm -r  Remove directory
+rmdir  Remove directory
+
+
+
+# search tools 
+
+ctrl+r : Show last use of a command
+
+'*' : Useing for any unit of each character exsist
+'?' : Useing for one unit of each character exsist
+
+example:
+
+ls h*
+ls f*e
+
+find . -(i)name ""  -type d -size +100M 
+
+which python3 # Show path of package
+
+
 
 
 
