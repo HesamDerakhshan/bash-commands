@@ -33,7 +33,9 @@ ctrl+r # Show last use of a command
 ls h*
 ls f*e
 
-find . -(i)name ""  -type d -size +100M 
+find <dirctory> -name "<name>" -type <d or f> -size <+ or - size B or M or G>
+find . -name "jafar.cpp"  -type d -size +100M
+ 
 
 which python3 # Show path of package
 
@@ -132,6 +134,7 @@ sudo
 
 <================================ other ===========================>
 
+chmod 
 reboot
 sleep 10s
 echo
