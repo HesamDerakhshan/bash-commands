@@ -15,11 +15,14 @@ alias ls='ls -l'
 
 golbal variable
 ---------------
-cd home/lobster/bin
-touch hesam
-nano hesam # write any command in hesam file like,
+cd home/user/bin
+
+touch my_file
+
+write any command in file like: 
 echo "bura haradi? $PWD"
-chmod +x hesam #make scripts executable (execution permissions) 
+make scripts executable (execution permissions):
+chmod +x my_file  
 
 or:
 add alias ls='ls -l' command in .bashrc file
@@ -54,6 +57,7 @@ rmdir  Remove directory
 ctrl+r : Show last use of a command
 
 '*' : Useing for any unit of each character exsist
+
 '?' : Useing for one unit of each character exsist
 
 example:
@@ -96,8 +100,8 @@ for i in 1 2 3;do python -c "x=$i;y=2;print(x+y)"; done
 
 svae output of command to file:
 ------------------------------
->   #appends output to a file or creates the file if it doesn't exist
->>  #overwrites the file if it exists or creates it if it doesn't exist
+'>'   #appends output to a file or creates the file if it doesn't exist
+'>>'  #overwrites the file if it exists or creates it if it doesn't exist
 
 
 # show data in bash 
