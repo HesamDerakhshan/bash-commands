@@ -63,6 +63,7 @@ ctrl+r : Show last use of a command
 example:
 
 ls h*
+
 ls f*e
 
 find . -(i)name ""  -type d -size +100M 
@@ -86,8 +87,11 @@ history | grep alias : show use of any cammand like "alias" in history
  # bash script
 
 touch newcommand
+
 nano newcommand # write any command in newcommand file like,
+
 chmod +x newcommand #make scripts executable (execution permissions) 
+
 ./newcommand 
 
 
@@ -101,13 +105,16 @@ for i in 1 2 3;do python -c "x=$i;y=2;print(x+y)"; done
 svae output of command to file:
 ------------------------------
 '>'   #appends output to a file or creates the file if it doesn't exist
+
 '>>'  #overwrites the file if it exists or creates it if it doesn't exist
 
 
 # view filesin bash 
 
 cat
+
 cat file1 | grep "hesam" 
+
 cat file1 | grep "hesam" -n
 
 less: #similar to cat but show one page of datas
