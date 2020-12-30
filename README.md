@@ -10,6 +10,7 @@ my_var = 5
 echo $my_var
 
 or
+
 alias ls='ls -l'
 
 
@@ -20,8 +21,11 @@ cd home/user/bin
 touch my_file
 
 write any command in file like: 
+
 echo "bura haradi? $PWD"
+
 make scripts executable (execution permissions):
+
 chmod +x my_file  
 
 or:
