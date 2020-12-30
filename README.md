@@ -136,6 +136,7 @@ ctrl+r Show last use of a command
 # root accsses 
 
 su
+
 sudo 
 
 
@@ -143,8 +144,12 @@ sudo
 # other 
 
 reboot
+
 sleep 10s
+
 echo
+
 pwd
+
 wildcards
 
