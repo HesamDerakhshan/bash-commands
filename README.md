@@ -104,7 +104,7 @@ svae output of command to file:
 '>>'  #overwrites the file if it exists or creates it if it doesn't exist
 
 
-# show data in bash 
+# view filesin bash 
 
 cat
 cat file1 | grep "hesam" 
@@ -118,17 +118,20 @@ tail -4 :  #similar to cat but show 4 last line of datas
 
 
 
-# make empty directory and file 
+# Create empty directory and file 
 
 mkdir   Directory
+
 touch   File
 
 
 
 # hot keys 
 
-ctrl+d Exit from 1 bash
+ctrl+d Exit from curent bash
+
 ctrl+l Clean page
+
 ctrl+r Show last use of a command
 
 
