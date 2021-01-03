@@ -103,17 +103,16 @@ example of python code in bash:
 -------------------------------
 for i in 1 2 3;do python -c "x=$i;y=2;print(x+y)"; done
 
+ 
 
-# svae output 
+# svae output of command to file:
 
-svae output of command to file:
-------------------------------
 '>'   #appends output to a file or creates the file if it doesn't exist
 
 '>>'  #overwrites the file if it exists or creates it if it doesn't exist
 
 
-# view filesin bash 
+# view files in bash 
 
 cat
 
