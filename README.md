@@ -72,9 +72,9 @@ ls f*e
 
 find . -(i)name ""  -type d -size +100M 
 
-which python # Show directory path of current python package
+which python: Show directory path of current python package
 
-whereis python # Show directory path of all python packages
+whereis python: Show directory path of all python packages
 
 
 
