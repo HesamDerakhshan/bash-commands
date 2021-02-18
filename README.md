@@ -1,6 +1,9 @@
 # bash-commands
 This script contains the most commonly used bash commands, and shourtcuts
-more from bash : https://devhints.io/bash
+
+more about bash : https://devhints.io/bash
+
+more about vim : https://devhints.io/vim
 # variable 
 
 local variable
